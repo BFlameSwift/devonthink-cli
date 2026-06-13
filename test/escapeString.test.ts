@@ -4,7 +4,7 @@ import { test } from "node:test";
 import {
 	escapeStringForJXA,
 	isJXASafeString,
-} from "../src/devonthink/utils/escapeString.ts";
+} from "../src/devonthink/utils/escapeString.js";
 
 // These tests guard the JXA-injection fix: user input interpolated into a JXA
 // script string must not be able to break out of the string literal. The bug
