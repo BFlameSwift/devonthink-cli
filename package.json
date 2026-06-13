@@ -21,6 +21,7 @@
 		"build": "tsup",
 		"typecheck": "tsc --noEmit",
 		"lint": "tsc --noEmit",
+		"test": "node --test test/*.test.ts",
 		"prepublishOnly": "npm run build",
 		"format": "biome format --write ."
 	},
