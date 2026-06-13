@@ -1,5 +1,5 @@
+import { ErrorCode, McpError } from "@modelcontextprotocol/sdk/types.js";
 import { execFile } from "child_process";
-import { McpError, ErrorCode } from "@modelcontextprotocol/sdk/types.js";
 
 export const executeJxa = <T>(script: string): Promise<T> => {
 	return new Promise((resolve, reject) => {
